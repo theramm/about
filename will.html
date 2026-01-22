@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar {
+        width: 98%;
+        margin: 10px auto;
+        background: white;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 0 6px rgba(0,0,0,0.1);
+       
+
+        }
+       
+        .navbar-left a{
+            color: black;
+            text-decoration: none;
+            padding-left: 10px;
+            
+        }
+     
+        .navbar-right a{
+            color: black;
+            
+        }
+        .navbar-right {
+            display: flex;
+            gap: 25px;
+            text-decoration: none;
+        }
+        .navbar-right a{
+            text-decoration: none;
+        }
+        .hh{
+            border-radius: 100px;
+            color: white;
+            background-color: blue;
+        }
+        .search-wrapper {
+            width: 90%;
+            margin: 20px auto;
+            padding: 2px 10px;
+            background: white;
+            border-radius: 35px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.1);
+            font-size: 10px;
+            }
+
+    
+
+            .search-wrapper input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 10px;
+            }
+
+            .search-tabs {
+            display: flex;
+            gap: 20px;
+            }
+
+            .search-tabs span {
+            color: #666;
+            cursor: pointer;
+            }
+
+            .search-tabs .active {
+            color: black;
+            font-weight: bold;
+            }
+            .dov{
+                width: 95%;
+                margin: 20px auto;
+                padding: 20px;
+                background-color: black;
+                color: white;
+                text-align: center;
+            }
+            .dov button{
+                background-color: blue;
+                color: white;
+                border-radius: 35px;
+                border-color: white;
+
+            }
+        .opps{
+            margin: 30px auto;
+            width: 70%;
+            display: flex;
+
+        }
+        .opps div img{
+            height: 200px;
+            width: 200px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-left">
+            <a href="#">Behance</a>
+            <a href="#">Explore</a>
+            <a href="#">Jobs</a>
+            <a href="#">Resourses</a>
+            <a href="#">Hire</a>
+        </div>
+        <div class="navbar-right">
+            <button class="hh">start</button>
+            <button class="hh">sign in</button>
+            <a href="#">contect</a>
+
+        </div>
+
+    </header>
+         
+    <div>
+        <div class="search-wrapper">
+      
+        <input type="text" placeholder="web design portfolio website">
+       
+        <div class="search-tabs">
+            <span class="active">Projects</span>
+            <span>People</span>
+            <span>Assets</span>
+            <span>Images</span>
+        </div>
+        </div>
+    </div>
+    <div class="dov">
+        <h3>Adobe portfolio</h3>
+        <h1>Built a Personal Website in minutes with Adobe portfolio</h1>
+        <p>Seemly sync your Behance projects to your custom site instantly</p>
+        <button> Get Start</button>
+
+        <div class="opps">
+        <div><img src="home.jpg" alt="" class="ikk"></div>
+         <div><img src="about.jpg" alt="" class="ikk"></div>
+        <div><img src="about.jpg" alt="" class="ikk"></div>
+         </div>
+
+    </div>
+
+
+
+
+</body>
+</html>
